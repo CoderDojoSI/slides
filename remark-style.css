@@ -2,6 +2,7 @@
 
 html,body,textarea#source {width:99%; height:97%; margin:0; padding:0; border:0;}
 h1, h2, h3, h4, h5, h6 {position:relative; z-index:3;}
+.bg-black {background:black;}
 body {font-size:20px; line-height:170%; font-family:DejaVu Sans, sans-serif;}
 noscript {color:red;}
 h1 {line-height:120%;}

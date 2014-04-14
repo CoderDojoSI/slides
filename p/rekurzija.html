@@ -89,6 +89,10 @@ kjer je **vsako naslednje** število **vsota prejšnjih dveh**:
 --
 89, ...
 
+
+.small[Zanimiva lastnost: vsako število je približno
+[1.618](https://www.google.com/search?q=zlati+rez)-krat večje od prejšnjega.]
+
 --
 
 Python koda:
@@ -117,6 +121,7 @@ Traceback (most recent call last):
 RuntimeError: maximum recursion depth exceeded
 ```
 ---
+class: bg-black
 .center[![Infinite recursion — You gotta know when to quit](../resources/rekurzija/recursion-quit.png)]
 ---
 ## Ustavitveni pogoj
@@ -164,7 +169,7 @@ Fibonaccijevo zaporedje:
 ```python
 def fib(N):
     if N <= 1:      # izhodni pogoj
-        return N    #   ne ponovimo rekurzivnega klica
+        return N    # ne ponovimo rekurzivnega klica, ampak samo vrnemo vrednost N
     else:
         return fib(N-1) + fib(N-2)
 ```
