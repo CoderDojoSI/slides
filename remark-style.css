@@ -27,7 +27,7 @@ pre > code {font-size:12px; line-height:110%; margin:0px; border-radius:10px;}
 .col3:last-child {margin-right:0%;}
 .col2b,
 .col3b {border:1px solid silver; border-radius:5px;}
-.bottom {position:absolute; bottom:4em; }
+.bottom {position:absolute; left:25%; bottom:4em; }
 .clear {display:block; clear:both;}
 .condensed {line-height:110%;}
 
