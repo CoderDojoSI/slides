@@ -4,6 +4,7 @@ html,body,textarea#source {width:99%; height:97%; margin:0; padding:0; border:0;
 h1, h2, h3, h4, h5, h6 {position:relative; z-index:3;}
 .bg-black {background:black;}
 body {font-size:20px; line-height:170%; font-family:DejaVu Sans, sans-serif;}
+img {max-width:100%;}
 noscript {color:red;}
 h1 {line-height:120%;}
 p + p {margin-top:10px;}
@@ -13,7 +14,8 @@ li p {margin:0px;}
 ul ul {font-size:16px; line-height:150%;}
 .u {border-bottom:2px solid black;}
 .small {font-size:14px; line-height:110%;}
-.quote {display:block; text-align:center; padding:10px; background:#eee; border:1px solid silver; border-radius:10px; letter-spacing:2px; font-family: Parisienne, cursive; font-style:oblique;}
+.big {font-size:26px; line-height:110%;}
+.quote {display:block; text-align:center; padding:10px; background:#eee; border:1px solid silver; border-radius:10px; letter-spacing:2px; font-family: cursive; font-style:oblique; color:grey;}
 pre,
 code {background:#eee; border:1px solid silver; font-size:14px; padding:1px 4px; font-family:'DejaVu Sans Mono', monospace;}
 pre > code {border:0px;}
@@ -27,9 +29,14 @@ pre > code {font-size:12px; line-height:110%; margin:0px; border-radius:10px;}
 .col3:last-child {margin-right:0%;}
 .col2b,
 .col3b {border:1px solid silver; border-radius:5px;}
+.bottom {position:absolute; left:25%; bottom:4em; }
 .clear {display:block; clear:both;}
 .condensed {line-height:110%;}
 
 .wh100 > * {width:100%; height:100%; position:absolute; top:0; left:0;}
 .w100 > * {width:100%; position:absolute; left:0;}
 .h100 > * {height:100%; position:absolute; top:0;}
+
+.grey {color:grey}
+.black {color: black;}
+.i {font-style:italic;}
