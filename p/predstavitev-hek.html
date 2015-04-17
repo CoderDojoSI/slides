@@ -71,6 +71,7 @@ class: animated slideInRight
   Prve točke NE omeni.
 
 ---
+name: partners
 ## Sodelujemo z ...
 
 <br><br>
@@ -82,7 +83,7 @@ class: animated slideInRight
 <span style="margin-left:2em;"></span>
 ![Connecta.si](../resources/predstavitev-hek/connecta.png)
 <span style="margin-left:2em;"></span>
-![Mimovrste](../resources/predstavitev-hek/isil.png)
+![ISIL](../resources/predstavitev-hek/isil.png)
 
 ![Mimovrste](../resources/predstavitev-hek/mimovrste.png)
 <span style="margin-left:2em;"></span>
@@ -161,7 +162,7 @@ background-image: url(../resources/predstavitev-hek/anonymous.png)
 ???
 * Kako se bolje naučiti nečesa kot s poglobljenim razumevanjem.
 * ... neprava imena / podatke ... razen npr. kadar je naslov pomemben za dostavo
-* ... varna gesla ... Kaj so varna gesla??
+* ... varna gesla ... Vi imate varna gesla??
 * ... socialni inženiring ... Kot smo slišali na včerajšnjem predavanju.
 * end: mi jih pa razdelimo v pare in potem — igranje vlog, kjer se
   kao ne poznajo — poskuša en v paru prepričati drugega, da mu pošlje
@@ -285,7 +286,7 @@ Prednosti:
   * **$50 dobi CoderDojo** ali BlackGirlsCode ali druga podobna organizacija
   
 
-* sodelujete pri tehničnih odločitvah industrijskih gigantov 
+* sodelujete pri tehničnih odločitvah industrijskih ~~monopolistov~~ gigantov
   (Amazon, Apple, IBM, Intel, Google, ...)
 
 ???
@@ -320,7 +321,7 @@ class: center, middles
 .bottom[
 slajdi: http://goo.gl/ZZcKFP
 
-http://www.CoderDojo.si
+http://Ljubljana.CoderDojo.si
 ]
 </textarea>
 <script src="../remark.min.js"></script>
@@ -330,6 +331,15 @@ var slides = document.getElementsByClassName('remark-slide-content');
 for (var i=1; i < slides.length; ++i) {
   slides[i].className += ' animated bounceInRight';
 }
+// Hide ISIL partner after showing it for the first time
+slideshow.on('afterHideSlide', function (slide) {
+  if (slide.properties.name == 'partners') {
+    setTimeout(function() {
+      var img = document.querySelector('img[alt="ISIL"]');
+      try { img.parentNode.removeChild(img); } catch(err) {};
+    }, 3000);
+  }
+});
 </script>
 </body>
 </html>
