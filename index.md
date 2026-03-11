@@ -15,6 +15,7 @@ info(afna)coderdojo(pika)si ali ekipa(afna)coderdojo(pika)si.
 * FHS — hierarhija datotečnega sistema
 * Regularni izrazi
 * ...
+* [Predstavitev @Hek.si](p/predstavitev-hek.html)
 
 Pripravo verzioniranih predstavitev priporočamo v `plain text` formatu,
 podprtih z enim od naslednjih orodij:
@@ -33,7 +34,4 @@ podprtih z enim od naslednjih orodij:
 
 Razlog za uporabo tekstovnih orodij in ne
 [LibreOffice Impress](https://www.libreoffice.org/discover/impress/),
-MS Powerpoint ali Prezi je ta, da predstavitve verzionirane hranimo na
-[GitHub](https://github.com/CoderDojoSI/slides)u, kar pomeni,
-da vsako predstavitev popravljamo in dopolnjujemo, tako ima vsaka
-predstavitev svojo implicitno verzijo.
+MS Powerpoint ali Prezi je boljši pregled nad vsebino in zgodovino sprememb.
