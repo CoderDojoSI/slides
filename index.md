@@ -35,3 +35,12 @@ podprtih z enim od naslednjih orodij:
 Razlog za uporabo tekstovnih orodij in ne
 [LibreOffice Impress](https://www.libreoffice.org/discover/impress/),
 MS Powerpoint ali Prezi je boljši pregled nad vsebino in zgodovino sprememb.
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0DM27783G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('set', 'url_passthrough', true);
+  gtag('js', new Date());
+  gtag('config', 'G-Q0DM27783G');
+</script>
