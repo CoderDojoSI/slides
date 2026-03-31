@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	<meta charset="utf-8" />
+	<meta content="OPIS PREDSTAVITVE" name="description" />
+	<title>PERMUTACIJE</title>
+	<link href="../remark-style.css" rel="stylesheet" type="text/css">
+
+	<style>
+	body{font-family:'Yanone Kaffeesatz';color:white}
+	.remark-container{background-color:#D7D8D2}
+	.remark-slide-content{background-color:#272822}
+	div{border-radius:5px;}
+	span{padding:3px;border-radius:10px;}
+	.red{background-color:red; color:white; font-weight:bold;}
+	.green{background-color:green; color:white; font-weight:bold}
+	.orange{background-color:orange; color:white; font-weight:bold}
+	</style>
+</head>
+
+<body>
+<noscript>Če <b>omogočite JavaScript</b>, ta stran postane poučna prezentacija.</noscript>
+
+
+<textarea id="source">
+class: center, middle
+# Permutacije
+---
+class: bottom
+# Permutacije? Kombinacije?
+## Kaj bi lahko bila razlika?
+---
+# Solata:
+- .green[zelena solata], .red[paradižnik], .orange[korenje]
+
+
+- .red[paradižnik], .orange[korenje], .green[zelena solata]
+<img src = "../resources/permutacije/salad.png" style="position:absolute; float:right"/>
+---
+# Solata:
+- .green[zelena solata], .red[paradižnik], .orange[korenje]
+
+
+- .red[paradižnik], .orange[korenje], .green[zelena solata]
+<img src = "../resources/permutacije/salad.png" style="position:absolute; float:right"/>
+<div style="color:white; padding:40px; margin:50px; border-style:solid; border-color:white; border-radius:30px;" >
+.center[.green[zelena solata], .red[paradižnik], .orange[korenje]]
+.center[=]
+.center[.red[paradižnik], .orange[korenje], .green[zelena solata]]
+</div>
+---
+# Solata:
+- .green[zelena solata], .red[paradižnik], .orange[korenje]
+
+
+- .red[paradižnik], .orange[korenje], .green[zelena solata]
+<img src = "../resources/permutacije/salad.png" style="position:absolute; float:right"/>
+<div style="color:white; padding:40px; margin:50px; border-style:solid; border-color:white; border-radius:30px;" >
+.center[.green[zelena solata], .red[paradižnik], .orange[korenje]]
+.center[=]
+.center[.red[paradižnik], .orange[korenje], .green[zelena solata]]
+</div>
+## Vrstni red ni pomemben = KOMBINACIJE
+---
+# Permutacije?
+
+## Ključavnica za kolo
+<img src="../resources/permutacije/combinationlock.jpg" style="width:50%; float:left;"/>
+---
+# Permutacije?
+
+## Ključavnica za kolo
+<img src="../resources/permutacije/combinationlock.jpg" style="width:50%; float:left;"/>
+
+<p style="float:right; font-weight:bold; margin-top:100px;margin-right:15px;">1,2,3 ni enako kot 3,2,1</p>
+---
+# Permutacije?
+## Ključavnica za kolo
+<img src="../resources/permutacije/combinationlock.jpg" style="width:50%; float:left;"/>
+
+<p style="float:right; font-weight:bold; margin-top:100px;margin-right:15px;">1,2,3 ni enako kot 3,2,1</p>
+<div style="border-style:solid; border-color:white;margin-top:200px;margin-left:450px; padding:10px;text-align:center;">
+Z razliko od solate je vrstni red oziroma pozicija važna!
+</div>
+---
+# Permutacije s ponavljanjem:
+
+<div id = "threejsDIV">
+</div>
+---
+# Permutacije brez ponavljanja?
+
+---
+# Permutacije brez ponavljanja?
+* Ne želimo enakih okusov sladoleda
+
+---
+# Permutacije brez ponavljanja?
+* Ne želimo enakih okusov sladoleda
+
+# Kombinacije brez ponavljanja?
+---
+# Permutacije brez ponavljanja?
+* Ne želimo enakih okusov sladoleda
+
+<img src = "../resources/permutacije/salad.png" style="position:absolute; float:right; padding-left:50%"/>
+
+# Kombinacije brez ponavljanja?
+* Prejšnji primer solate
+
+---
+# Permutacije brez ponavljanja?
+* Ne želimo enakih okusov sladoleda
+
+<img src = "../resources/permutacije/salad.png" style="position:absolute; float:right; padding-left:50%"/>
+
+# Kombinacije brez ponavljanja?
+* Prejšnji primer solate
+
+# Kombinacije s ponavljanjem?
+---
+# Permutacije brez ponavljanja?
+* Ne želimo enakih okusov sladoleda
+
+<img src = "../resources/permutacije/salad.png" style="position:absolute; float:right; padding-left:50%"/>
+
+# Kombinacije brez ponavljanja?
+* Prejšnji primer solate
+
+# Kombinacije s ponavljanjem?
+* Spomnimo se primera s solato:
+	* .green[zelena solata], .green[zelena solata], .green[zelena solata]
+	* .green[zelena solata], .green[zelena solata], .red[paradižnik]
+
+		In tako dalje
+
+
+</textarea>
+
+<script src="../remark.min.js"></script>
+<script src="../remark-script.js"></script>
+<script src="../resources/permutacije/threejs/jquery-2.1.0.min.js"></script>
+<script src="../resources/permutacije/threejs/three.min.js"></script>
+<script src="../resources/permutacije/threejs/OrbitControls.js"></script>
+<script src="../resources/permutacije/threejs/perm.js"></script>
+<script src="../resources/permutacije/threejs/drawData.js"></script>
+<script src="../resources/permutacije/threejs/main.js"></script>
+
+</body>
+</html>
